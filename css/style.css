@@ -272,13 +272,13 @@ h1{
   padding: 1rem 0;
   display: flex;
   justify-content: space-between;
-  background-color: rgb(69, 226, 174);
+  /* background-color: rgb(69, 226, 174); */
 }
 .footer-bottom > * {
   color: black;
   padding: 0.5rem 2rem;
-  background-color: palevioletred ;
-  border: 2px dashed black;
+  /* background-color: palevioletred ;
+  border: 2px dashed black; */
 }
 picture{
   display: flex;
