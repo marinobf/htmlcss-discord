@@ -75,7 +75,7 @@ body {
   /* border: 2px dashed black; */
 }
 
-ul{
+.link-header ul{
   text-align: center;
   display: flex;
   flex-direction: row;
@@ -238,14 +238,24 @@ h1{
  padding-top: .5rem;
  color: white;
 }
-.page-footer .col-30 {
+
+.li-footer li{
+  text-decoration: none;
+  list-style: none;
+  padding-bottom: 15px;
+}
+.li-footer .blue{
+  padding-top: 50px;
+}
+
+/* .page-footer .col-30 {
   background-color: #7b3c7a;
   border: 2px dashed black;
-}
-.page-footer .col-25{
+} */
+/* .page-footer .col-25{
   background-color: aquamarine;
   border: 2px dashed black;
-}
+} */
 
 .page-footer .col-30,
 .page-footer .col-70,
@@ -269,4 +279,16 @@ h1{
   padding: 0.5rem 2rem;
   background-color: palevioletred ;
   border: 2px dashed black;
+}
+picture{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+ h4{
+  padding-left: 20px;
+}
+.col-30 h2{
+  font-size: 30px;
+  padding-right: 20px;
 }
