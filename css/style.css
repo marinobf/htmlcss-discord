@@ -129,6 +129,7 @@ h1{
  padding: 15px;
  border-radius: 30px;
  margin-right: 20PX;
+ border-style: none;
 }
 .button-top :hover{
   background-color: black;
@@ -143,6 +144,19 @@ h1{
   background-color: white;
   color: black;
 } */
+ .button-login{
+  font-size: 15px;
+  padding: 13px;
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+  border-style: none;
+}
+.color-login{
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 
 /* MAIN */
@@ -162,13 +176,25 @@ h1{
 
 .page-content .col-40{
   min-height: 400px;
-  background-color: #ee81ec;
-  border: 2px dashed black;
+  /* background-color: #ee81ec; */
+  /* border: 2px dashed black; */
+  font-size: 30px;
 }
 .page-content .col-60{
   min-height: 400px;
-  background-color: aquamarine;
-  border: 2px dashed black;
+  /* background-color: aquamarine; */
+  /* border: 2px dashed black; */
+  background-size: contain;
+  background-image: url(../img/item1.svg);
+  background-repeat: no-repeat;
+}
+.small-p{
+  font-size: 15px;
+  padding-top: 20px;
+}
+.h2-header{
+  padding-right: 60px;
+  padding-top: 25px;
 }
 
 .page-content .large-content{
