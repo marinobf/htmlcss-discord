@@ -1,0 +1,199 @@
+/*RESERT*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+
+.debug, .debug  * {
+  min-height: 50px;
+  padding: 5px;
+  /* background-color: brown; */
+  border: 2px dashed red;
+}
+
+.container {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+   
+}
+.container.container-xs{
+  max-width: 800px;
+}
+
+.row{
+  display: flex;
+}
+
+.col-60{
+  width: 60%;
+}
+.col-40{
+  width: 40%;
+}
+.col-70 {
+  width: 70%;
+}
+.col-30{
+  width: 30%;
+  
+}
+.col-25{
+  width: 25%;
+}
+/*HEADEER*/
+
+.page-header{
+  /* background-color: #add8e7; */
+  padding-bottom: 4px;
+  background-image: url(../img/jumbo.png);
+  background-size: contain;
+}
+
+
+.top-header .row{
+ background-color: #d9a41e;
+ 
+}
+
+.top-header .row > * {  
+  width: calc(100% / 3);
+  padding: 0.5rem;
+  /*DEBUG*/
+  /* border: 2px dashed black; */
+}
+
+ul{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+li{
+  padding-left: 15px;
+  padding-right: 10px;
+}
+a{
+  text-decoration: none;
+}
+
+.top-header .link-header{
+  text-align: center;
+  
+}
+.top-header .logo-header{
+  text-align: left;
+}
+.top-header .login-header{
+  text-align: right;
+}
+
+.botton-header{
+  /* background-color: blue; */
+  padding: 75PX 0;
+  text-align: center;
+  
+}
+.botton-header .hero{
+  /*debug*/
+  /* background-color: #ee81ec; */
+  min-height: 350PX;
+  /* border: 2px dashed black; */
+}
+h1{
+  font-size: 50px;
+  padding-bottom: 35px;
+  color: white;
+}
+.paragraf{
+  font-size: 23px;
+  padding-bottom: 30px;
+  color: white;
+}
+.button-top > *{
+ font-size: 25px;
+ padding: 15px;
+ border-radius: 30px;
+ margin-right: 20PX;
+}
+
+/* MAIN */
+
+.page-content > section {
+  padding: 50px 0;
+}
+.page-content > section:nth-child(odd) {
+  background-color: white;
+}
+.page-content > section:nth-child(even) {
+  background-color: gray;
+}
+.page-content > section:nth-child(even) .row{
+  flex-direction: row-reverse;
+}
+
+.page-content .col-40{
+  min-height: 400px;
+  background-color: #ee81ec;
+  border: 2px dashed black;
+}
+.page-content .col-60{
+  min-height: 400px;
+  background-color: aquamarine;
+  border: 2px dashed black;
+}
+
+.page-content .large-content{
+  background-color: green;
+  min-height: 600px;
+  border: 2px dashed black;
+}
+
+/* FOOTER */
+.page-footer {
+ background-color: #23272a;
+ padding-top: .5rem;
+ color: white;
+}
+.page-footer .col-30 {
+  background-color: #7b3c7a;
+  border: 2px dashed black;
+}
+.page-footer .col-25{
+  background-color: aquamarine;
+  border: 2px dashed black;
+}
+
+.page-footer .col-30,
+.page-footer .col-70,
+.page-footer .col-25 {
+  min-height: 300px;
+  
+}
+.footer-top{
+  padding-bottom: 30px;
+  border-bottom: 1px solid white;
+  margin-bottom: 20px;
+}
+.footer-bottom {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(69, 226, 174);
+}
+.footer-bottom > * {
+  color: black;
+  padding: 0.5rem 2rem;
+  background-color: palevioletred ;
+  border: 2px dashed black;
+}
